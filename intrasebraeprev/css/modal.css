@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* O z-index do div#mask deve ser menor que do div#boxes e do div.window */
+#mask {position:absolute;
+	z-index:9998;
+	background-color:#000;
+	display:none;
+	top:0;
+	left:0;
+}
+ 
+.window {
+	position:fixed;
+	width:800px;
+	height:600px;
+	display:none;
+	z-index:9999;
+	padding:10px 20px 60px 20px;
+	text-align:center;
+	background:#FFF;
+	border-radius:4px;
+	top:50%;
+	margin-top:-100px;
+}
+.window img {
+	width:800px;
+	height:600px;
+}
+#maskB {position:absolute;
+	z-index:9998;
+	background-color:#000;
+	display:none;
+	top:0;
+	left:0;
+}
+ 
+.windowB {
+	position:fixed;
+	width:640px;
+	height:480px;
+	display:none;
+	z-index:9999;
+	padding:10px 20px 60px 20px;
+	text-align:center;
+	background:#FFF;
+	border-radius:4px;
+	top:50%;
+	margin-top:-100px;
+}
+.windowB img {
+	width:640px;
+	height:480px;
+}
+
+/* posiciona o link para fechar a janela */
+.close {
+	display:block;
+	text-align:right;
+	text-decoration:none;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#191919;
+	font-size:small;
+	margin-bottom:5px;
+}
+.close span {
+	color:#F00;
+}
+a[name=modal] {
+	margin:4px;
+}	
+a.foto_next, a.foto_prev{
+	text-decoration:none;	
+}
+.foto_next, .foto_prev {
+	display:block;
+	position:relative;
+	float:left;
+	background:#000;
+	color:#fff;
+	margin-top:8px;
+	padding:5px 10px 5px 10px;
+	border-radius:5px;
+	border:1px solid #555;
+	font-family:calibri;
+	font-size:16px;	
+	margin-left:5px;
+}
+.infoModal {
+	float:left;
+	margin-top:10px;
+	padding:5px;
+}
+.modalForum {
+	position:absolute;
+	width:800px;height:auto;
+	display:none;
+	z-index:99999;
+	padding:10px 20px 20px 20px;
+	text-align:center;
+	background:#FFF;
+	border-radius:4px;
+	margin-top:-200px;
+	background:#555;
+}
+.modalForum a.close {
+	color:#fff;
+}	
+#maskForum {
+	position:absolute;
+	z-index:9998;
+	background-color:#000;
+	display:none;
+	top:-30%;
+	left:-20%;
+}

@@ -1,0 +1,98 @@
+//Import Fonts//
+@import url(http://fonts.googleapis.com/css?family=Dosis);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+
+@media (min-width: 590px) and (max-width: 767px){
+}
+@media (max-width: 767px){
+	
+}
+
+@media (max-width: 993px){
+	//menu mobile
+	.x-icon{width: 70px;margin: 20px 0;cursor: pointer;}
+	.bar-mobile{top:0;background-color: @clightblue;padding:15px;width: 100%;position: fixed;z-index: 998;
+		.btn-mobile{cursor: pointer;width: 35px;float: right;
+			div{height: 5px;background-color: white;margin-bottom: 6px;width: 100%;
+				&:last-child{margin-bottom: 0px;}
+			}
+		}
+		.conf{cursor:pointer;width: 30px;margin-right: 5px;margin-top: -3px;}
+		.name{.ft-droid(@cwhite);font-weight: bold;}
+	}
+	//configurações conta
+	.conf-menu{padding: 0;overflow-y:scroll;height:100%;display:none;position: fixed;top:0;z-index: 999;background-color: @clightblue;width: 100%;text-align: center;margin: 0;
+		li{list-style: none;
+			a{padding: 5px; font-size:20px;.ft-droid(@cwhite);display: block;
+				&:hover{color:@cgray2;}
+			}
+		}
+	}
+	//menu default
+	.mobile-menu{overflow-y:scroll;height:100%;display:none;position: fixed;top:0;z-index: 999;background-color: @clightblue;width: 100%;text-align: center;padding:0;margin: 0;
+		ul{padding:0;}
+		li{list-style: none;
+			a{padding: 5px; font-size:20px;.ft-droid(@cwhite);display: block;
+				&:hover{color:@cgray2;}
+			}
+		}
+		.has-sub{padding: 5px 0;
+			a:active{outline: none;}
+			span{}
+			ul{background-color: @cgray;display:none;font-size:10px;
+				li{
+					span{font-size: 15px;}
+					ul{background-color:darken(@cgray, 15%);display:none;
+						li{
+							span{}
+						}
+					}
+				}
+			}
+
+		}
+	}
+	//menu-cpanel
+	.menu-cpanel{display:none;overflow-y:scroll;height:100%;position: fixed;top:0;z-index: 999;background-color: @clightblue;width: 100%;text-align: center;padding:0;margin: 0;
+		ul{padding:0;}
+		a{color:@cwhite;
+			&:hover{color:@cgray }
+		}
+		li{list-style: none;
+			span{padding: 5px; font-size:20px;.ft-droid(@cwhite);display: block;
+				&:hover{color:@cgray2;}
+			}
+		}
+		.li-first{
+			span{}
+			.ul-one{display: none;
+				li{
+					span{background-color: @cgray;font-size: 15px;}
+					.ul-two{display: none;
+						li{
+							span{background-color: darken(@cgray, 15%);}
+						}
+					}
+				}
+			}
+		}
+
+	}
+.owl-carousel{margin-top: 56px;}
+.conteudo-cpanel{margin-top: 80px;}
+	.bar-topologin{text-align: center !important;
+		.logo{float: none;}
+	}
+}
+//Fonts//
+.ft-droid(@value){font-family: 'Droid Sans', sans-serif;color:@value;}
+.ft-dosis(@value){font-family: 'Dosis', sans-serif;color:@value;}
+//color//
+@cwhite:#fff;
+@cgray:#686868;
+@cgray2:#808181;
+@cgray3:#d7d7d7;
+@cblue:#24899f;
+@clightblue:#74bde2;
+@clightblue2:#53aedc;
+@cblack:#000;

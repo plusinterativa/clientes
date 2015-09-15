@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: "calibri";
+    src: url("fontes/calibri/calibri.eot"); /*somente para o IE*/
+    src: url("fontes/calibri/calibri.ttf") format("truetype"); /*para outros browsers*/
+}
+@font-face {
+    font-family: "myriadweb";
+    src: url("fontes/myriadweb/myriadweb.eot"); /*somente para o IE*/
+    src: url("fontes/myriadweb/myriadweb.ttf") format("truetype"); /*para outros browsers*/
+}

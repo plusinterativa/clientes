@@ -1,0 +1,223 @@
+@charset "utf-8";
+/* CSS Document */
+
+#rodape-geral{
+	position:relative;
+	float:left;
+	width:920px;
+	margin:0 20px;
+	background:#eee;
+	padding:20px 0;
+	-webkit-border-radius:52px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	behavior: url(css/hack/PIE.htc);
+}
+
+#teste{
+	position:relative;
+	float:left;
+	width:290px;height:261px;
+	font-family:'Source Sans Pro', Verdana, Geneva, sans-serif;
+	font-size:20px;
+	color:#fff;
+	/*margin-left:20px;*/
+	text-align:center;
+}
+#teste h1{margin-top:0px;color:#1e84ce/*#801517*/;font-size:25px;border-bottom:0px solid #801517;padding-bottom:5px;}
+#teste-bt{
+	display:block;
+	list-style: none;
+	margin:0 auto;
+	width:120px;height:20px;
+	padding:10px 20px;
+	/*background:#ddc172;*/
+	background:#1e84ce;
+	font-size:16px;
+	font-weight:600;
+	line-height:21px;
+	text-decoration:none;
+	color:#fff;
+	margin-bottom:40px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	behavior: url(css/hack/PIE.htc);
+	text-align:center;
+	/* transition */
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+#teste-bt a{
+	display:block;
+	margin:0; 
+	padding:0;
+	text-decoration:none;
+	color: #fff;
+}
+/*#teste-bt:hover{background:#c8af67;text-decoration:none;color:#fff;}*/
+#teste-bt:hover{background:#3b9adf;text-decoration:none;color:#fff;}
+
+#teste-link{
+	position:relative;
+	text-align:left;
+	font-family:'Source Sans Pro', Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:#801517/*#ddc172*/;
+	margin-top:29px;
+}
+#teste-link a{text-decoration:none; color:rgb(50,50,50)/*#ddc172*/;}
+#teste-link a:hover{text-decoration:underline;}
+#midias-sociais{margin:0 auto;bottom:0; text-align:center;width:104px;}
+#midias-sociais img{/* transition */-webkit-transition: all 0.2s linear;-moz-transition: all 0.2s linear;-o-transition: all 0.2s linear;transition: all 0.2s linear; float:left;}
+#midias-sociais img:hover{/*opacidade*/opacity:0.65;-moz-opacity: 0.65;filter: alpha(opacity=65);}
+
+
+
+/* CADASTRAR */
+#cadastrar{
+	position:relative;
+	float:left;
+	width:604px; height:auto;
+	margin-left:20px;
+	text-align:center;
+	font-family:'Source Sans Pro', Verdana, Geneva, sans-serif;
+	font-size:20px;
+	font-color:#801517;
+	background-color:#eee;
+}
+#cadastrar h1{font-size:25px;color:#801517;}
+#cadastrar h2{font-size:18px;color:#9d9d9d;margin-bottom:20px;}
+#rodape-geral h3 {
+		font-size:18px;
+	font-weight:400;
+	color:#9d9d9d;
+	border-bottom:2px solid #9d9d9d;
+	padding-bottom:5px;
+	margin-bottom:10px;
+	width:96%;
+	margin-left:2%;
+}
+#ender {
+	padding:10px 0 10px 0;
+}
+#cadastrar input[type=text]{
+	position:relative;
+	float:left;
+	width:542px;height:50px;
+	border:none;
+	background:#fff;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	behavior: url(css/hack/PIE.htc);
+	margin-bottom:0px;	
+	text-align:left;
+	text-indent:20px;
+	color:#9d9d9d;
+	margin:10px 0;
+}
+#cadastrar input[type=text]:focus, #cadastrar input[type=password]:focus{
+	color:000;
+	font-size:large;
+}
+#cadastrar input[type=password]{
+	position:relative;
+	float:left;
+	width:542px;height:50px;
+	border:none;
+	background:#fff;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	behavior: url(css/hack/PIE.htc);
+	margin-bottom:0px;	
+	text-align:left;
+	text-indent:20px;
+	color:#9d9d9d;
+	margin:10px 0;
+}
+#cadastrar button{
+	position:relative;
+	float:right;
+	text-align:center;
+	/*background:#ddc172;*/
+	background:#1e84ce;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	behavior: url(css/hack/PIE.htc);
+	color:#fff;
+	font-size:13px;
+	border:0;
+	padding:10px 20px;
+	cursor:pointer;
+	/* transition */
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+#cadastrar button:hover{background:#3b9adf;}
+#cadastrar td.texto{font-size:15px; height:50px; padding:10px 0; padding-right:20px;}
+
+
+/* Clientes */
+#clientes{
+	position:relative;
+	float:left;
+	width:920px;
+	margin:10px 20px;
+	font-family:'Source Sans Pro', Verdana, Geneva, sans-serif;
+	font-size:17px;
+	color:#9d9d9d;
+	border-top:1px dotted #9d9d9d;
+	border-bottom:1px dotted #9d9d9d;
+	padding-bottom:15px;
+	margin-bottom:10px;
+}
+#clientes h1{margin:10px 0; font-weight:100;}
+#clientes img{margin-bottom:-20px;}
+
+/* WebSite */
+#website{
+	position:relative;
+	float:left;
+	font-family:'Source Sans Pro', Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#9d9d9d;
+	margin-left:20px;
+	margin-top:20px;
+}
+#copyright{
+	position:relative;
+	float:right;
+	font-family:'Source Sans Pro', Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#9d9d9d;
+	margin-right:20px;
+	margin-top:20px;
+}
+
+.links {
+	position:relative;
+	float:left;
+	background:#eee;
+	border:2px solid #ddd;
+}
+.links a {
+	padding:10px 20px 10px 20px;
+	display:block;
+	text-decoration:none;
+	font-family:handel;
+	font-size:16px;
+	color:#1e84ce;	
+}
+.links a:hover {
+	color:#fff;
+}
+.links:hover {
+	background:#1e84ce;
+}

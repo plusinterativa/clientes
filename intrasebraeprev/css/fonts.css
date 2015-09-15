@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    	font-family: "handel";
+    	src: url("fontes/handel/handel.eot"); /*somente para o IE*/
+    	src: url("fontes/handel/handel.ttf") format("truetype"); /*para outros browsers*/
+	}
+@font-face {
+    	font-family: "calibri";
+    	src: url("fontes/calibri/calibri.eot"); /*somente para o IE*/
+    	src: url("fontes/calibri/calibri.ttf") format("truetype"); /*para outros browsers*/
+	}

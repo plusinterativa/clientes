@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+a img {
+	border:0;	
+}
+#bgcinza-topo{
+	position:absolute;
+	top:0;left:0;
+	width:100%;height:400px;
+	background:#e4e4e4;
+	/*background-image:url(../imagens/bg-topo.jpg);
+	background-repeat:repeat;*/
+	border-bottom:1px solid #fff;
+}
+
+#logomarca{
+	position:relative;
+	float:left;margin:0;
+	/* transition */
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+	width:300px;
+	height:97px;
+	margin-top:-5px;
+}
+#logomarca:hover{
+	/*opacidade*/
+	opacity:0.65;
+	-moz-opacity: 0.65;
+	filter: alpha(opacity=65);
+}
+#acesso {
+	position:relative;
+	float:right;
+	width:600px;
+	height:60px;
+	padding-right:5px;
+	padding-top:10px;
+	margin-top:5px;
+}
+.ajustes {
+	padding:5px;
+	border:1px solid #ddd;
+	border-radius:5px;
+	width:47px;
+	height:45px;
+	float:right;
+	position:relative;
+	cursor:pointer;
+	margin-top:1px;
+}
+.boas_vindas {
+	position:relative;
+	float:right;
+	padding-right:10px;
+	width:500px;
+	font-family:handel,arial;	
+}
+.bv {
+	font-family:handel,arial;
+	font-size:12px;
+	position:relative;
+	float:right;
+	height:22px;
+	width:500px;
+	text-align:right;	
+}
+.bv span {
+	font-size:14px;
+	color:#1e84ce;
+}
+#settings {
+	position:absolute;
+	left:813px;
+	z-index:9999;
+	margin-top:72px;
+	padding:10px;
+	border:1px solid #ccc;
+	background:#eee;
+	border-radius:5px;
+	box-shadow:1px 2px 4px rgb(50,50,50);
+	display:none;	
+}
+#settings a {
+	text-decoration:none;
+	font-family:handel;
+	color:rgb(50,50,50);	
+	display:block;
+	padding:1px 4px 1px 4px;
+	font-size:14px;
+}
+#settings a:hover {
+	background:#1e84ce;
+	color:#FFF;
+	border-radius:5px;
+}
+#settings ul {
+	list-style:none;
+	margin:0;
+	padding:0;	
+}
+#settings ul li {
+	border-bottom: 1px solid #ddd;
+	margin-bottom:4px;
+	padding-bottom:4px;
+}
+#settings ul li:last-child {
+	border:0;	
+}
+.barra {
+	position:relative;
+	float:left;
+	width: 98%;
+	/*background-color: #ddc172; */
+	background-color:#1e84ce;
+	/*box-shadow: 0px 1px 1px rgba(0,0,0,.2);*/
+	left:0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	behavior: url(css/hack/PIE.htc);
+	margin-top:20px;
+	font-family:handel;
+	font-size:20px;
+	padding:15px 0 15px 2%;
+	color:#fff;
+}

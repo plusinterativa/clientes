@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<dwsync>
+
+<file name="formUpArquivos.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130035147826669921" remote="130035147820000000" />
+
+<file name="formEditArquivos.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130038577640000000" remote="130038577640000000" />
+
+<file name="formDelArquivos.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130038577738544921" remote="130038577730000000" />
+
+<file name="formSlide.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130040436514248046" remote="130040436510000000" />
+
+<file name="formCadLinks.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130045882401113281" remote="130045882400000000" />
+
+<file name="formEditLinks.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130045882522070312" remote="130045882520000000" />
+
+<file name="formLinks.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130045875906123046" remote="130045875900000000" />
+
+<file name="formDelLinks.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130045882659316406" remote="130045882650000000" />
+
+<file name="formEndRodape.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130045878406767578" remote="130045878400000000" />
+
+<file name="formCadNoticias.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130045888686552734" remote="130045888680000000" />
+
+<file name="formNoticias.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130045888526328125" remote="130045888520000000" />
+
+<file name="formEditNoticias.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130045888909316406" remote="130045888900000000" />
+
+<file name="formDelNoticias.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130045889195771484" remote="130045889190000000" />
+
+<file name="formDicasUteis.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130045944537021484" remote="130045944530000000" />
+
+<file name="formCadDicasUteis.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130045927581904296" remote="130045927580000000" />
+
+<file name="formEditDicasUteis.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130045934896455078" remote="130045934890000000" />
+
+<file name="formDelDicasUteis.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130045887552792968" remote="130045887550000000" />
+
+<file name="formVideos.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130045890448027343" remote="130045890440000000" />
+
+<file name="formCadVideos.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130045890340371093" remote="130045890340000000" />
+
+<file name="formEditVideos.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130045890258515625" remote="130045890250000000" />
+
+<file name="formDelVideos.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130045890164033203" remote="130045890160000000" />
+
+<file name="formUsuarios.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130045875528623046" remote="130045875520000000" />
+
+<file name="formCadUsuarios.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130047964425361328" remote="130047964420000000" />
+
+<file name="formDelUsuarios.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130045882057548828" remote="130045882050000000" />
+
+<file name="formEditUsuarios.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130047964825771484" remote="130047964820000000" />
+
+<file name="formFotos.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130045892136650390" remote="130045892130000000" />
+
+<file name="formCadFotos.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130046691212441406" remote="130046691210000000" />
+
+<file name="formCadAlbuns.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130045892398144531" remote="130045892390000000" />
+
+<file name="formEditAlbuns.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130045891918769531" remote="130045891910000000" />
+
+<file name="formDelAlbuns.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130045893212382812" remote="130045893210000000" />
+
+<file name="formCadTreinamentos.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130046259848691406" remote="130046259840000000" />
+
+<file name="formTreinamentos.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130045943962021484" remote="130045943960000000" />
+
+<file name="formEditTreinamentos.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130046274712275390" remote="130046274710000000" />
+
+<file name="formDelTreinamentos.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130046279752177734" remote="130046279750000000" />
+
+<file name="formBiblioDigital.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130047976408281250" remote="130047976400000000" />
+
+<file name="formCadBiblioDigital.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130047978380595703" remote="130047978380000000" />
+
+<file name="formDelBiblioDigital.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130048001603818359" remote="130048001600000000" />
+
+<file name="formEditBiblioDigital.php" server="C:/Program Files (x86)/EasyPHP-12.1/www/" local="130048011787353515" remote="130048011780000000" />
+
+</dwsync>
