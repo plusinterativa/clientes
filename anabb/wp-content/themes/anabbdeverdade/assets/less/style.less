@@ -1,0 +1,186 @@
+//IMPORT-FONTS//
+@import url(https://fonts.googleapis.com/css?family=Dosis:600,400);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+// GLOBAL //
+.seta{margin: 0 auto;display: block; margin-bottom: 100px; margin-top: 100px;}
+.seta-azul{margin: 0 auto;display: block;margin-top:20px;margin-bottom: 100px;}
+.seta-laranja{margin: 0 auto;display: block;margin-top:100px;margin-bottom: 120px!important;}
+.seta-verde{margin: 0 auto;display: block;margin-top:20px;margin-bottom: 100px;}
+.margin-control{margin-left: 30px;margin-right: 30px;}
+.capitalize{text-transform: capitalize;}
+.margin-zero{margin: 0 auto;margin-top: 25px;}
+// HEADER - TOPO - LOGO //
+.bg-topo{background-color: red;margin-bottom: 110px; text-align:center; background: url(../../assets/images/bg-topo-novo.png) center top no-repeat, url(../../assets/images/header-banner.png) no-repeat center bottom; background-size: 100%; height: 1075px;
+	img{margin-top: 38px;}
+	.menu-list{
+		ul{ margin-top: 114px;;text-decoration: none;
+			li{padding: 15px 45px;display: inline-block;font-size: 24px;font-weight: bolder;
+				a{.ft-dosis(@corange);}
+			}
+		}
+	}
+	.demo{float: left; text-align: left; margin-top: 210px; width: 380px;
+		a{text-decoration: none;}
+		h2{.ft-dosis(@corange); font-size: 30px; font-weight: bold;}
+		p{.ft-dosis(@cgray8);font-size: 18px; line-height: 20px;}
+	}
+	.info-more{text-align: center; cursor: pointer; width: 110px;border-radius: 5px;padding: 15px; color:@cwhite;font-size: 18px; background-color: @corange;}
+}
+.roll{position: fixed; top:50%; margin-top: -43px; width: 12px; right: 100px;
+	a{margin-bottom: 8px; display: block;
+	&:last-child{margin-bottom: 0;}
+	}
+}
+	.circle{background-color: @cblue9; height: 11px; width: 11px; border-radius: 50%;}
+	.circle-current{background-color: darken(@cblue9, 20%)}
+
+
+	
+// INDEX //
+//INDEX - QUEM SOMO//
+.title{text-align: center; .ft-dosis(@corange); font-weight: bold; font-size: 60px;}
+.last-img{margin-left: 20px;}
+.divisoria{margin: 0 auto;}
+.integrantes{margin-top: 30px; cursor: pointer;max-height: 710px;}
+.relative{position: relative;}
+
+//INDEX - NOSSAS PROPOSTAS //
+.prop-content{
+	span{margin-left: 25px;text-indent: -80px; text-align: left; font-size: 24px; .ft-dosis(@cgray8); padding: 20px 80px; float: left;}
+	img{margin-bottom: 33px;}
+}
+	.circle-unchecked{background: url(../images/circle.png) no-repeat; width: 84px; height: 66px;display: inline-block; float: left;}
+	.circle-checked{background: url(../images/ok.png) no-repeat; width: 84px; height: 66px; display: inline-block; float: left;}
+
+//INDEX - NOTICIAS//
+.img-noticia{height: 260px; margin: 0 auto;cursor: pointer;}
+.all-news{
+	.more{.ft-dosis(@corange);font-size: 22px; cursor: pointer;margin-bottom: 80px; display: block;text-align: center;
+		&:hover{text-decoration: underline;}
+	}
+	h2{ font-size: 30px; font-weight: bolder; text-align: center;
+		a{.ft-dosis(@corange);}
+	}
+	p{.ft-open(@cgray8);font-size: 18px; text-align: center;}
+}
+
+//INDEX - FALE CONOSCO//
+.contact{display: inline-block;margin-top: 30px;
+	p{margin-left: 270px;margin-right: 270px; text-align: center; .ft-open(@cgray8);font-size: 18px;}
+}
+.formulario{width: 100%; margin: 0 auto;
+	input[type=text]{border: 2px solid @corange;width: 100%; padding: 10px; margin-bottom: 15px; background-color: @cwhite;font-size: 14px;color: @cblack; outline: 0;}
+	textarea{min-height: 225px; border: 2px solid @corange;width: 100%; padding: 10px; margin-bottom: 15px; background-color: @cwhite;font-size: 14px;color: @cblack; outline: 0;}
+	p{.ft-open(@cgray8); font-size: 18px; font-weight: bold; margin-bottom: -2px;}
+	.submit{width: 110px;border: none;padding: 15px; color:@cwhite;font-size: 18px; background-color: @corange; margin-bottom: 100px;}
+//PLACEHOLDER EDIT//
+	::-webkit-input-placeholder {.ft-open(darken(@corange, 5%));}
+	:-moz-placeholder {.ft-open(darken(@corange, 5%));}
+	::-moz-placeholder {.ft-open(darken(@corange, 5%));}
+	:-ms-input-placeholder {.ft-open(darken(@corange, 5%));}
+}
+
+// PAGE NOTICIAS //
+.header{
+	.back-home{.ft-dosis(@corange); font-size: 20px;margin-top: 20px; font-weight: bold; display: inline-block;
+		img{margin-right: 10px;}
+		span{margin-top: 10px;}
+	}
+	.border{position:relative; border: 2px solid @cblue9; width: 100%; margin-top: 20px;
+		h1{.ft-dosis(@corange);font-weight: bolder; position: absolute; left: -10px; bottom: -32px; padding-right: 15px;background-color: @cwhite; font-size: 105px;}
+	}
+	.logo{padding: 70px; text-align: center;}
+}
+
+.content{
+	//CONTEUDO DA NOTICIA PRINCIPAL//
+	h2{.ft-dosis(@corange); font-size: 38px;font-weight: bolder; margin-top: 40px;}
+	.border-orange{border: 3px solid @corange; border-radius: 5px; margin-top: -10px;}
+	.date{.ft-open(@corange); font-size: 16px; font-weight: bold; margin-top: 30px;}
+	.news-content{.ft-open(@cgray8); font-size: 16px; margin-top: 30px;text-align: justify;}
+	.posted{.ft-open(@corange); font-size: 16px; font-weight: bold; margin-top: 30px;}
+	.footer-links{.ft-open(@corange); font-size: 16px; font-weight: bold; display: block; margin-top: 30px; text-decoration: underline;
+		&:hover{text-decoration: none;}
+	}
+
+
+	//CONTEUDO DAS OUTRAS NOTICIAS (CANTO DIREITO)//
+	.border-purple{border: 3px solid @cpurple3; border-radius: 5px; margin-top: -10px;}
+	.others{.ft-dosis(@cpurple3); font-size: 38px;font-weight: bolder; margin-top: 40px;}
+	ul{list-style-type: none; padding: 0px; margin-left: 13px;
+		li{
+			a{.ft-open(@cpurple3); font-size: 14px; font-weight: bold; text-decoration: underline; margin-top: 15px;display: block;
+				&:hover{text-decoration: none;}
+			}
+		}
+	}
+	.other-contact{margin-left: 13px;
+		img{margin-top: 30px; margin-right: 20px;}
+		p{.ft-open(@cpurple3); font-size: 16px;font-weight: bolder;}
+	}
+}
+
+//FOOTER//
+.footer{text-align: center;margin-bottom: 50px;}
+.blank-space{margin: 50px 0;}
+.img-mail{margin: 0 auto;}
+.chapa-basic-info{margin-top: 10px;.ft-dosis(@cgray8);text-align: center;font-size: 14px;font-weight: bold;}
+.anabb-mail{.ft-dosis(@cblue9); font-size: 18px; font-weight: bold;}
+.anabb-logo-footer{margin-top: -10px;}
+
+
+//FONTS//
+.ft-dosis(@value){font-family: 'Dosis', sans-serif;color:@value};
+.ft-open(@value){font-family: 'OpenSans', sans-serif;color:@value};
+
+//COLORS//
+//colors//
+@cblack: #000;
+@cgraylight:#f2f2f2;
+@cgraylight2:#c5c4c4;
+@cgray2:#777777;
+@cgray3:#474747;
+@cgray4:#444444;
+@cgray5:#c2c2c2;
+@cgray6:#4e4e4e;
+@cgray7:#BAC0C4;
+@cgray8:#999999;
+@cwhite:#fff;
+@cbluelight:#42c4dd;
+@cbluelight2:#69b8e5;
+@cbluelight3:#BED7EC;
+@cblue9:#71cac7;
+@cblue8:#00b8c1;
+@cblue7:#78b7c7;
+@cblue6:#006372;
+@cblue5:#00a3a9;
+@cblue4:#7effb2;
+@cblue3:#59c1af;
+@cblue2:#00c2c4;
+@cblue:#006275;
+@csalmon:#ff7070;
+@csalmon2:#b20000;
+@csalmon3:#f27076;
+@csalmon4:#d15315;
+@csalmon5:#ff7454;
+@corange:#f26834;
+@corange2:#f06d17;
+@corange3:#fc8e58;
+@corange4:#de7c25;
+@corange5:#f16833;
+@cyellow:#efa900;
+@cyellow2:#fdc43c;
+@cyellow3:#ffbd20;
+@cyellow4:#ffc000;
+@cyellow5:#ffff8d;
+@cgreen:#8ec156;
+@cgreen2:#ffd178;
+@cgreen3:#9ad688;
+@cgreen4:#26cc35;
+@cgreenlight:#c0ff7d;
+@cgreenlight2:#c3e266;
+@cpurple:#c0accb;
+@cpurple2:#625e65;
+@cpurple3:#523e6a;

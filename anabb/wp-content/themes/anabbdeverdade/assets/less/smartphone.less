@@ -1,0 +1,117 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis:600,400);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+//MEDIAS//
+
+@media (max-width: 767px) {
+//PARA MENU MOBILE//
+//INDEX MOBILE//
+	.menu-list{text-align: center;
+		ul{ margin-top: 44px;text-decoration: none;
+			li{padding: 5px 45px; font-size: 24px;font-weight: bolder;
+				a{.ft-dosis(@corange);}
+			}
+		}
+	}
+	.seta{padding-top: 100px;margin: 0px auto; display: block; margin-bottom: 100px;}
+	.title{margin-bottom: 50px;text-align: center; .ft-dosis(@corange); font-weight: bold; font-size: 60px;}
+	.contact{display: inline-block;margin-top: 30px;
+		p{margin: -40px 0 0 0!important; text-align: center; .ft-open(@cgray8);font-size: 18px;}
+	}
+	.anabb-logo-footer{margin: 0 auto; margin-top: -10px; margin-bottom: 20px;}
+	.chapa-basic-info{margin: 20px 0px;.ft-dosis(@cgray8);text-align: center;font-size: 14px;font-weight: bold;}
+// FIM INDEX MOBILE//
+
+	//NOTICIAS MOBILE//
+	.header{
+		.logo{display: block;text-align: center; padding-top: 0px!important; padding-bottom: 100px!important;
+			img{margin: 0 auto;}
+		}
+	}
+	.thumbnail-mobile{width: 100%;}
+	.contact{
+		p{margin: 0;text-align: center;.ft-open(@cgray8); font-size: 18px;}
+	}
+}
+
+@media (max-width: 1200px){
+  // MEDIA PARA TABLETS //
+  	.seta{padding-top: 100px;margin: 0px auto; display: block; margin-bottom: 100px;}
+
+	.bg-topo{margin: 0;text-align:center; background: url(../../assets/images/bg-topo-novo.png) center top no-repeat, url(../../assets/images/header-banner.png) center bottom no-repeat; background-size: 100%; height: 695px;
+		.menu-list{text-align: center;
+			ul{margin-top: 14px!important;text-decoration: none!important; display: inline-block;
+				li{padding: 15px 15px!important; font-size: 22px;font-weight: bolder;
+					a{.ft-dosis(@corange);}
+				}
+			}
+		}
+		.demo{float: left; text-align: left; margin-top: 40px; width: 290px;}
+	}
+	.contact{
+		p{margin: 0;text-align: center;.ft-open(@cgray8); font-size: 18px;}
+	}
+	.anabb-logo-footer{margin: 0 auto;}
+	.chapa-basic-info{margin: 20px 0px;.ft-dosis(@cgray8);text-align: center;font-size: 18px;font-weight: bold;}
+// NOTICIAS TABLET //
+	.header{
+		.logo{
+			img{margin: 0 auto; margin-top: -60px; padding-bottom: 30px;}
+		}
+	}
+}
+
+@media (max-width: 1200px){
+	.bg-topo{margin: 0;text-align:center; background: url(../../assets/images/bg-topo-novo.png) center top no-repeat, url(../../assets/images/header-banner.png) center bottom no-repeat; background-size: 100%; height: 1075px;}
+}
+//FONTS//
+.ft-dosis(@value){font-family: 'Dosis', sans-serif;color:@value};
+.ft-open(@value){font-family: 'OpenSans', sans-serif;color:@value};
+
+//COLORS//
+@cblack: #000;
+@cgraylight:#f2f2f2;
+@cgraylight2:#c5c4c4;
+@cgray2:#777777;
+@cgray3:#474747;
+@cgray4:#444444;
+@cgray5:#c2c2c2;
+@cgray6:#4e4e4e;
+@cgray7:#BAC0C4;
+@cgray8:#999999;
+@cwhite:#fff;
+@cbluelight:#42c4dd;
+@cbluelight2:#69b8e5;
+@cbluelight3:#BED7EC;
+@cblue9:#71cac7;
+@cblue8:#00b8c1;
+@cblue7:#78b7c7;
+@cblue6:#006372;
+@cblue5:#00a3a9;
+@cblue4:#7effb2;
+@cblue3:#59c1af;
+@cblue2:#00c2c4;
+@cblue:#006275;
+@csalmon:#ff7070;
+@csalmon2:#b20000;
+@csalmon3:#f27076;
+@csalmon4:#d15315;
+@csalmon5:#ff7454;
+@corange:#f26834;
+@corange2:#f06d17;
+@corange3:#fc8e58;
+@corange4:#de7c25;
+@corange5:#f16833;
+@cyellow:#efa900;
+@cyellow2:#fdc43c;
+@cyellow3:#ffbd20;
+@cyellow4:#ffc000;
+@cyellow5:#ffff8d;
+@cgreen:#8ec156;
+@cgreen2:#ffd178;
+@cgreen3:#9ad688;
+@cgreen4:#26cc35;
+@cgreenlight:#c0ff7d;
+@cgreenlight2:#c3e266;
+@cpurple:#c0accb;
+@cpurple2:#625e65;
+@cpurple3:#523e6a;
