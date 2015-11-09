@@ -1,0 +1,165 @@
+/*RESET*/
+*, *:before, *:after{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+
+    font-family: 'Khmer UI', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+
+    line-height: 1.2;
+    letter-spacing: 0em;
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body{background: #ffffff;}
+h1{font-size: 2em; font-weight: 300;}
+h2{font-size: 1.2em; font-weight: 400;}
+h1{font-size: 1.2em; font-weight: 500;}
+p{margin-bottom: 15px; font-size: 1em}
+p:last-child{margin-bottom: 0;}
+b, strong{font-weight: bold;}
+mark{padding: 5px 10px; background-color: #eee;}
+img{border: none; max-width: 100%; vertical-align: middle;}
+small{font-size: 0.75em; color: #555;}
+a{text-decoration: none;}
+a img{border: 0;}
+label{width: 100%; display: block; margin-bottom: 5px;}
+
+/*FONT WEIGHT*/
+.font-thin{font-weight: 100 !important;}
+.font-light{font-weight: 300 !important;}
+.font-normal{font-weight: 400 !important;}
+.font-bold{font-weight: 700 !important;}
+
+/*FONT SIZE*/
+.fontzero{font-size: 0em !important;}
+.fontsize1{font-size: 1em;}
+.fontsize1b{font-size: 1.5em;}
+.fontsize2{font-size: 2em;}
+.fontsize2b{font-size: 2.5em;}
+.fontsize3{font-size: 3em;}
+.fontsize3b{font-size: 3.5em;}
+
+/*MARGIN*/
+.nomargin {margin: 0 !important;}
+.noborder {border: 0 !important;}
+.nomargin li{margin: 0 !important;}
+.m-bottom{margin-bottom: 30px;}
+
+/*BOOT*/
+/*CONTAINER*/
+.container{float:left; width: 100%;}
+.content{width: 100%; margin: 0 auto; max-width: 1024px;}
+.content-page{padding: 60px 0;}
+
+/*HELPERS*/
+.textshadow{text-shadow: 1px 1px 0 #ccc;}
+.boxshadow{-webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.3); -moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.3); box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.3);}
+.radius{-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}
+.round{-webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%;}
+.last{margin-right: 0 !important; border: 0 !important;}
+.clear{clear: both;}
+
+/*TEXT ALIGN*/
+.al-left{text-align: left;}
+.al-right{text-align: right;}
+.al-center{text-align: center;}
+.al-just{text-align: justify;}
+
+/*FLOAT*/
+.fl-left{float: left !important;}
+.fl-right{float: right !important;;}
+.fl-none{float: none !important;;}
+
+/*BORDER*/
+.bd-left{border-left: 1px solid #cccccc;}
+.bd-right{border-right: 1px solid #cccccc;}
+
+/*display*/
+.ds-block{display: block;}
+.ds-inblock{display: inline-block;}
+.ds-inline{display: inline;}
+.ds-none{display: none;}
+
+/*FORM*/
+.form-control input, .form-control textarea{width: 100%; font-size: 0.9em; padding: 3px; border: 1px solid #cccccc;}
+.formcontrol-full, .formcontrol-medium, .formcontrol-small{float: left; margin: 10px 0;}
+.formcontrol-full{width: 100%}
+.formcontrol-medium{width: 65%; margin-right: 5%;}
+.formcontrol-small{width: 30%; margin-right: 5%;}
+.input-error{border: 1px solid red !important;}
+.input-success{border: 1px solid green !important;}
+
+/*BOX*/
+.box{width: auto; float: left; text-align: center;}
+.box-line{float: left; width: 100%;}
+
+.box-small{width: 25.75%;}
+.box-medium{width: 40%;}
+.box-large{width: 50%;}
+.box-large-pd{width: 50%; padding: 45px 45px 25px 45px; max-height: 300px;}
+.box-full{width: 100%; margin: 0;}
+.box4three{width: 33.33333333333333%;}
+
+/*VIDEO*/
+.video{width: 100%; margin: 0;}
+.video-small{width: 40%;}
+.video-medium{width: 50%;}
+.video-large{width: 60%;}
+.video-full{width: 100%;}
+
+/*BOTÕES*/
+.btn-more {width: 25px; height: 25px; color: #ffffff !important; line-height: 25px;}
+.btn-more:hover {text-decoration: none !important;}
+.btn{display: inline-block; padding: 10px 20px; background: #333; border: 1px solid #222; cursor: pointer; font-size: 1em; font-weight: 400; color: #fff; -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);}
+.btn:hover{text-decoration: none !important;}
+.btn-big{font-size: 1.8em; padding: 20px 40px;}
+
+.btn-blue{background-color: #004ebc; border-color: #4e99b7;}
+.btn-blue:hover{background-color: #64c3ea; border-color: #59aed1}
+.btn-green{background-color: #59ab66; border-color: #4b9157;}
+.btn-green:hover{background-color: #66c475; border-color: #59aa66;}
+.btn-yelow{background-color: #d1be5a; border-color: #b7a64e;}
+.btn-yelow:hover{background-color: #d1bd59; border-color: #d1be5a;}
+.btn-red{background-color: #b26a6a; border-color: #995b5b;}
+.btn-red:hover{background-color: #cc7979; border-color: #b26a6a;}
+
+/*SHORT ICONS*/
+.icon{background-image: url(../img/icon_menu.png); background-position: 0 20px; background-repeat: no-repeat; background-size:auto auto;}
+.icon-left{background-position: left center; background-repeat: no-repeat; background-size: auto 96%; padding-left: 30px;}
+.icon-right{background-position: right center; background-repeat: no-repeat; background-size: auto 96%; padding-right: 20px;}
+.icon-footer{background-repeat: no-repeat; background-size: auto 68%;}
+.icon-inblock{background-repeat: no-repeat; display: inline-block; width: 48px; height: 48px; margin: 0 13px 0 0;}
+
+.icon-nucleos{background-position: 15px 20px;}
+.icon-nucleos:hover{background-position: -45px 20px;}
+.icon-previdencia{background-position: -105px 20px;}
+.icon-previdencia:hover{background-position: -164px 20px;}
+.icon-publicacoes{background-position: -225px 20px;}
+.icon-publicacoes:hover{background-position: -286px 20px;}
+.icon-gestao{background-position: -330px 20px;}
+.icon-gestao:hover{background-position: -390px 20px;}
+.icon-emprestimos{background-position: -459px 20px;}
+.icon-emprestimos:hover{background-position: -520px 20px;}
+.icon-saber{background-position: -580px 20px;}
+.icon-saber:hover{background-position: -640px 20px;}
+.icon-relacionamento{background-position: -692px 20px;}
+.icon-relacionamento:hover{background-position: -753px 20px;}
+.icon-more{background-image: url(../img/icon_outrasnoticias.png);}
+.icon-play{background-image: url(../img/icon_outrosvideos.png);}
+.icon-home{background-image: url(../img/rodape_end.png); }
+.icon-time{background-image: url(../img/rodape_hora.png); }
+.icon-phone{background-image: url(../img/rodape_tel.png); }
+.icon-email{background-image: url(../img/rodape_email.png); }
+.icon-author {background-image: url(../img/footer_icon.png)}
+.icon-file {background-image: url(../img/icon_file.png)}
+/*PAGINAÇÃO*/
+.paginator{float: left; width: 100%; text-align: center; padding: 35px 0;}
+.paginator a{color: #004ebc !important;}
+.paginator a:hover{text-decoration: underline;}
+.paginator .paginator-box{padding: 5px 8px; background-color: #004ebc; color: #ffffff !important; text-decoration: none !important; margin: 0 5px;}
