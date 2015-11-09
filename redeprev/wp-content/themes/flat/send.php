@@ -12,4 +12,4 @@
     if(!mail($emaildestinatario, $assunto, $mensagemHTML, $headers ,"-r".$emailsender)){
         mail($emaildestinatario, $assunto, $mensagemHTML, $headers );
     }
-        header('location:http://plusinterativa.com/desenvolvimento/redeprev/contato?la=la');
+        header('location:http://fundacaoredeprev.com.br/?la=la');

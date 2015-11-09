@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">    
-    <title>Redeprev</title>
+    <title><?php wp_title( '|', true, 'right' ); ?></title>
     <!-- Bootstrap -->
     <link href="<?php echo bloginfo('template_url');?>/assets/css/vendor/bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo bloginfo('template_url');?>/assets/css/vendor/animate.css" rel="stylesheet"> 

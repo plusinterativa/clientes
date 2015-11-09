@@ -46,11 +46,6 @@ while ( have_posts() ) : the_post();
                             <option value="seguridade@fundacaoredeprev.com.br">Seguridade (Cadastro, Simulação de Benefícios, Contribuição etc.)</option>
                             <option value="empréstimos@fundacaoredeprev.com.br">Empréstimos (Simulação, Solicitação, Ficha Financeira etc.)</option>
                             <option value="pagamentos@fundacaoredeprev.com.br">Pagamentos (Folha de Benefícios)</option>
-                            
-                            <!-- 
-                            <option value="allan.ferreira@plusinterativa.com">allan</option>
-                            <option value="carlos.lisboa@plusinterativa.com">janssen</option>
-                            -->
                         </select>
                         <textarea name="textarea" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
                         <input name="url" value="<?php echo home_url();?>/contato" hidden/>

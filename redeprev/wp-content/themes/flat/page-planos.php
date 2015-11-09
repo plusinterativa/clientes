@@ -132,6 +132,16 @@ while ( $the_query->have_posts() ) : $the_query->the_post();?>
 					</div>					
 					<div class="col-md-6">						
 						<div class="btn-plano btn-form">Formulários</div>
+					</div>	
+					<div class="col-md-6">
+						<?php 
+							$args = array('post_type' => 'extras', 'order'=>'ASC', 'posts_per_page' => '-1', 'category__and' => array(catid('botoes'),catid('planos')));
+							$the_query = new WP_Query( $args );
+							while ( $the_query->have_posts() ) : $the_query->the_post();						
+							$link = get_post_meta($post->ID, 'link', true);
+						?>
+							<a href="<?php echo $link;?>" target="_blank"><div class="btn-plano"><?php the_title();?></div></a>
+							<?php endwhile;?>
 					</div>							
 				</div>							
 			</div>

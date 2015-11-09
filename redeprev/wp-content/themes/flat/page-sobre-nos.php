@@ -29,7 +29,7 @@ while ( $the_query->have_posts() ) : $the_query->the_post();
   </div>
   <img class="kitblue" src="<?php echo bloginfo('template_url');?>/assets/images/kitblue.png"> 
 </div>
-<div class="owl-carousel">
+<div class="owl-carousel sobrenos-owl">
   <div class="bgnone"> 
    <div class="bar2-sobre container animated bounceInUp">   
     <div class="row ">
@@ -88,10 +88,29 @@ while ( $the_query->have_posts() ) : $the_query->the_post();
           </div>
           <ul class="list-sobre">
             <li></li>
-            <li class="one">Estrutura Organizacional</li>
-            <li class="two">Governança</li>
-            <li class="tree">Empréstimos</li>
-            <li class="four">Nossa Equipe</li>
+            
+          <?php 
+            $args = array('post_type' => 'extras', 'order'=>'ASC', 'posts_per_page' => '-1', 'category__and' => array(catid('info'),catid('sobre-nos')));
+            $the_query = new WP_Query( $args );
+            while ( $the_query->have_posts() ) : $the_query->the_post();
+            $class = get_post_meta($post->ID, 'class', true);
+            $link = get_post_meta($post->ID, 'link', true);
+            $btn_name = get_post_meta($post->ID, 'btn_name', true);
+          ?>
+            <li class="<?php echo $class;?>">
+              <?php 
+              if(!empty($link)):?>
+                <a href="<?php echo $link;?>"><?php echo $btn_name;?></a>
+              <?php 
+              else:
+                echo $btn_name;
+              endif;
+              ?>
+            </li>
+          <?php 
+            endwhile;
+          ?>
+           
             <!--<li class="five">Conselhos e Diretoria</li>-->
           </ul>       
         </div>
@@ -119,14 +138,14 @@ while ( $the_query->have_posts() ) : $the_query->the_post();
 </div>
 <?php 
 if(isset($_GET['sobre-nos'])):
-    if($_GET['sobre-nos']=="emprestimos"):
+  if($_GET['sobre-nos']=="emprestimos"):
 ?>
     <script>
     setTimeout(function(){
-      $('.b3').trigger("click");
+      $('.n3-home').trigger("click");
     },1000);
     </script>                 
-<?php   
-  endif;    
+<?php
+  endif;
 endif;?>
 <?php get_footer();?> 

@@ -8,7 +8,7 @@ $(function(){
 	});
 //Page Sobre nós
 	//Bar2-SobreNós//
-setTimeout(function(){});
+
 	//slider// 
 	$('.owl-carousel').owlCarousel({
 	    items:1,
@@ -20,9 +20,10 @@ setTimeout(function(){});
 		$('.list-sobre li').eq(index).addClass('b'+index);		
 	});
   	//},500);
-	$(".owl-dot").each(function(index){		
-		$('.owl-dot span').eq(index).addClass('n'+index);
+	$(".owl-dot").each(function(index){
+		$('.owl-dot span').eq(index).addClass('n'+index);		
 	});
+
 	$(".list-sobre li").each(function(index){		
 		$(".b"+index).click(function(){			
 			$(".n"+index).trigger('click');
@@ -31,6 +32,15 @@ setTimeout(function(){});
 	$(".imgx").click(function(){
 		$(".n0").trigger("click");
 	});
+	//Desativa n3 para n3-home no owl-carousel
+	setTimeout(function(){
+		$('.owl-dot span').eq(3).addClass('n3-home').removeClass('n3');			
+		//$('.owl-dot span').removeClass('n3');
+	},500);
+	
+	
+
+
 	//Counter
 	var options = {
 	  useEasing : true, 
@@ -43,9 +53,9 @@ setTimeout(function(){});
 	$('.toys').hover(function() {		
 		$('.dates').stop().slideDown("swing");
 		$('.list-sobre').stop().slideUp("swing");
-		var ativos = new CountUp("ativos", 0, 6606, 0, 1.5, options);
+		var ativos = new CountUp("ativos", 0, 5037, 0, 1.5, options);
 		ativos.start();
-		var assistidos = new CountUp("assistidos", 0, 1097, 0, 1.5, options);
+		var assistidos = new CountUp("assistidos", 0, 966, 0, 1.5, options);
 		assistidos.start();		
 	}, function() {
 		$('.dates').stop().slideUp("swing");
