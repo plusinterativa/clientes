@@ -1,0 +1,27 @@
+@media (min-width: 590px) and (max-width: 767px){	
+}
+@media (max-width: 767px){}
+/////////////////////////////Media Especifica///////////////////////////
+@media (max-width: 1015px){
+	.menu{display: none;}
+	.headermobile{height:60px;padding: 15px;background-color: white;z-index: 998;position: fixed;display: block;width: 100%;top: 0;box-shadow:0px -13px 65px #007a78;}
+	.btn-mobile{width:40px;float: right;cursor: pointer;
+		div{height:5px;background-color: #007a78; margin-bottom: 6px;border-radius: 10px;}
+	}
+	.menumobile{width: 100%;background-color:  #007a78;position: fixed;z-index: 999;height: 100%;top: 0;text-align: center;opacity: 0.9;overflow-y:scroll;display: none; 
+		li{list-style: none;
+			&:first-child{margin-top:50px;margin-bottom: 30px}
+			a{color: #fff;font-size: 20px;
+				&:hover{font-weight: bolder;color:#fff;text-decoration: none;}
+			}
+		}
+	}
+	.bgfooter{top:50%;height: 50%;}
+	.footer .logo{margin-top: 100px;}
+	.bgheader{display: none;}
+}
+@media (min-width:1016px){
+	.headermobile{display: none;}
+	.menumobile{display: none;}
+}
+///////////////////////////////////////////////////////////////////////

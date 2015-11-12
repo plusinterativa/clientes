@@ -1,0 +1,18 @@
+# BEGIN iThemes Security
+	# BEGIN Hide Backend
+			# Rules to hide the dashboard
+			RewriteRule ^(/desenvolvimento/rai/nucleos/2014/wwwroot/)?dash/?$ /desenvolvimento/rai/nucleos/2014/wwwroot/wp-login.php [QSA,L]
+		
+	# END Hide Backend
+# END iThemes Security
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /desenvolvimento/rai/nucleos/2014/wwwroot/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /desenvolvimento/rai/nucleos/2014/wwwroot/index.php [L]
+</IfModule>
+
+# END WordPress

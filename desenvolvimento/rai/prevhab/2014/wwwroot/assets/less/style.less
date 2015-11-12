@@ -1,0 +1,265 @@
+// vars & functions
+@txtcolor: #a1a1a1;
+.uppercase{text-transform: uppercase;}
+.box-shadow(@value){ box-shadow: @value; -moz-box-shadow: @value; -webkit-box-shadow: @value;}
+
+
+.download{
+	cursor: pointer;
+	position: absolute;
+  	bottom: 20px;
+  	right: 40px;
+}
+.alignleft {
+	float: left;
+	margin: 7px 28px 28px 0;
+}
+
+.alignright {
+	float: right;
+	margin: 7px 0 28px 28px;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin: 7px auto;
+}
+
+
+
+
+.content img{
+		width: auto !important;
+	  max-width: 100% !important;
+  		height: auto !important;
+}
+
+
+
+
+// default
+body{ .white;font-family: 'Droid Sans', sans-serif;font-size: 14px;color: #989898;}
+ul{	padding: 0;	margin: 0;}
+a{&:active,&:focus,&:visited{text-decoration: none;}}
+h1,h2,h3,h4,h5,h6{.uppercase;font-weight: bold;margin-bottom: 25px;}
+
+/***********************************************************************/
+.textRight{text-align: right;}
+.home .logo{
+	margin-top: 50px;
+}
+.menuhome{
+	margin-top: 45px;
+	li{list-style: none;margin-bottom: 0px;}
+	a{
+		color:#be8307;text-decoration: none;font-size: 24px;font-family: 'Oswald', sans-serif;
+		&:hover{color:#dc9d17}
+	}
+}
+.bgheader{
+	position: absolute;
+	top: 0;
+	z-index: -1;
+	width: 100%;
+	ul{ text-align: center;}
+	li{	
+	height: 100%;
+}
+.header{ 
+	position: relative;
+	height: 177px;
+	padding-top: 21px;
+	font-size: 14px;
+		display: inline-block; list-style: none; margin-left: 20px;
+		&:first-child{margin-left: 0;}
+	}
+	a{
+		font-size:14px; color: #be8307; padding-bottom: 2px;
+	}
+  	a.active{color: #025877;}
+}
+.header.scroll{	background: #15c0f1;}
+.bg{  background: url(../images/photos/home.jpg) no-repeat top center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; position: fixed; top: 0; left: 0;	z-index: -1; height: 100%; width: 100%;}
+.banner{
+	.relative;
+	img{width: 100%;height: auto;}
+	.logo{ width: auto;	height: auto;position: absolute;bottom: 53px;right: 0;}
+}
+.footer{
+	height: 154px;
+	text-align: right;
+	position: relative;
+}
+.bgfooter{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+}
+.footer .logo{
+	margin-top: 58px;
+}
+.plus{
+  	opacity: 0.8;
+  	&:hover{opacity: 1}
+	img{ height: 26px; margin-top: 4px;	margin-right: 7px; float: right;}
+	div{ float: right; width: 120px; color: #fff; font-size: 12px; line-height: 13px; margin-top: 6px;}
+}
+.pages{
+	margin-bottom: 26px;
+
+	.pages-title{
+		span{   line-height: 12px;font-size: 20px; font-weight: bold; color: #18c2f4;.uppercase;&:hover{text-decoration: none; }}
+		margin-bottom: 15px;
+	}
+	
+	.pages-content{
+		border-bottom: 1px solid #007a77;
+		div{ 
+			max-width: 145px;
+  			display: inline-block;
+		}
+		span{  
+			margin-bottom: -1px;
+			padding: 9px 14px;
+			margin-right: 5px;
+			text-transform: uppercase;
+			border: 1px solid transparent;
+			border-bottom: 0;
+			color: #007a77;
+			font-size: 14px;
+			font-family: 'Droid Sans', sans-serif;
+			font-weight: bold;
+			cursor:pointer;
+			display: inline-block;
+			border-radius: 10px 10px 0 0;
+			-webkit-border-radius: 10px 10px 0 0;
+			-moz-border-radius: 10px 10px 0 0;
+			a{color: inherit;&:hover{text-decoration: none;}}
+			&:hover{ color: #007a77;
+			border: 1px solid #007a77;
+			border-bottom: 0px;}
+		}
+		.active{ border: 1px solid #007a77;border-bottom: 0px;text-decoration:underline;color: #007a77;background: #fff;&:hover{background: #fff;}}
+	}
+}
+.content {
+	min-height: 300px;
+	.box{margin-bottom: 27px;  text-align: justify; display: none;}
+	.box.active{display: block;}
+}
+.side-menu.fixed{
+	.white;
+	width: 263px;
+	top: 71px;
+  	padding-top: 71px;
+  	display: none;
+}
+/***********************************************************************/
+
+
+
+.title-page{text-align: center;margin-bottom: 30px;}
+.page-line{background: #007a77; height: 5px;  margin-bottom: -27px;}
+.page-name{background: #007a77; color: #fff; font-size: 28px;letter-spacing: -1px;display: inline-block;border-radius: 30px;-webkit-border-radius: 30px;-moz-border-radius: 30px;padding: 5px 48px; }
+.menu{
+	text-align: center;	
+	ul{background:url(../images/menu.png) repeat-x bottom #fff;display: inline-block;overflow: hidden;border-radius: 50px;-webkit-border-radius: 50px;-moz-border-radius: 50px;}
+	li{display: inline-block;}
+	a{font-size: 16px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// style
+.white{background: #fff;}
+.body{padding-top: 0px;padding-bottom: 0px;}
+.blank{ background: #f3f9fb; position: fixed; z-index: 999;height: 100%;width: 100%;}
+.relative{position: relative;}
+.fixed{position: fixed;}
+.title-image,.title-image-fixed{ width: 100%; height: auto;}
+.title-image-fixed{ z-index: 990;top: 71px; position: fixed;display: none;}
+
+.site{overflow: hidden;}
+.bgleft{background: url(../images/left.png) no-repeat top;position: absolute;height: 1705px;width: 614px;z-index: 5;}
+.bgright{background: url(../images/right.png) no-repeat top;position: absolute; height: 1505px;width: 848px;z-index: 5}
+.screen1{height: 100%;position: absolute;overflow: hidden;width: 614px;z-index: 10}
+.screen2{height: 100%;position: absolute;overflow: hidden;width: 848px;z-index: 10}
+
+@media (min-width: 1200px){
+	.bgleft{top: -410px; left: -376px;}
+	.bgright{top: -915px; right: -683px;}	
+}
+@media (max-width: 1199px) {	
+	.bgleft{left:-476px;top: -410px; }
+	.bgright{right:-773px;top: -915px;}
+}
+	.menu ul{
+		background:url('../images/menu.png') repeat-x bottom #fff;
+		overflow: visible;
+		height: 55px;
+  		padding: 9px 50px 0;
+  		box-shadow: 0px 2px 7px;
+  		-webkit-box-shadow: 0px 2px 7px;
+  		-moz-box-shadow: 0px 2px 7px;
+	}
+	.menu li{
+		width: 117px;
+		margin: 0px;
+		vertical-align: middle !important;
+	}
+	.menu a{text-align: center;}
+	.menu li:last-child{
+		margin-right: 0px;
+	}
+	.header{
+	  	padding-top: 47px;
+	  	padding-bottom: 78px;
+	}
+	.header a{
+		color:#007a77;
+		line-height: 0px;
+	}
+	.logo-menu{
+		position: relative;
+		height: 41px !important;
+		margin-right: 0 !important;
+	  	width: 154px !important;
+	  	margin: 0 10px !important;
+	}
+	.logo-menu img{position: absolute;top: -25px;left: -10px;width: 174px;height: 83px;}
+	.item{padding:20px;}
+///Plugin Owl Carousel///
+#owl-demo .item img{
+	display: block;
+    width: 100%;
+    height: auto;
+}
